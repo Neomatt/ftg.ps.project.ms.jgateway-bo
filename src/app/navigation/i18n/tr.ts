@@ -4,6 +4,7 @@ export const locale = {
         'NAV': {
             'APPLICATIONS': 'Programlar',
             'DASHBOARDS'  : 'Kontrol Paneli',
+            'ANIMATEUR': 'Kontrol Paneli',
             'CALENDAR'    : 'Takvim',
             'ECOMMERCE'   : 'E-Ticaret',
             'ACADEMY'     : 'Akademi',

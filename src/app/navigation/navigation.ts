@@ -30,6 +30,21 @@ export const navigation: FuseNavigation[] = [
                 ]
             },
             {
+                id: 'animateur',
+                title: 'Animateur',
+                translate: 'NAV.ANIMATEUR',
+                type: 'collapsable',
+                icon: 'dashboard',
+                children: [
+                    {
+                        id: 'home',
+                        title: 'Home',
+                        type: 'item',
+                        url: '/apps/animateur/home'
+                    }
+                ]
+            },
+            {
                 id       : 'calendar',
                 title    : 'Calendar',
                 translate: 'NAV.CALENDAR',

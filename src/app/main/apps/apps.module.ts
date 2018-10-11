@@ -51,7 +51,11 @@ const routes = [
     {
         path        : 'scrumboard',
         loadChildren: './scrumboard/scrumboard.module#ScrumboardModule'
-    }
+    },
+    {
+        path: 'animateur/home',
+        loadChildren: './animateur/home/home.module#HomeAnimateurModule'
+    },
 ];
 
 @NgModule({
